@@ -5,15 +5,17 @@ import Welcome from './components/welcome';
 import Present from './components/present';
 import Blog from './components/blog';
 import Footer from './components/footer';
+import Review from './components/review';
 function App() {
   return (
     <div className="App">
-      <Head/>
-      <Home/>
+      {/* <Head/> */}
+      {/* <Home/>
       <Welcome/>
-      <Present/>
+      <Present/> */}
+      {/*<Review/>
       <Blog/>
-      <Footer/>
+      <Footer/> */}
       {/* <header className="App-header">
         Test
       </header> */}
