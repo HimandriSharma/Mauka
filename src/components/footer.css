@@ -1,0 +1,9 @@
+.foot{
+    background-image: url('../assets/Group229.png');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-y: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}

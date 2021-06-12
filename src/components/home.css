@@ -1,0 +1,32 @@
+.parent{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.ali{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    
+}
+.flow{
+    width: 25%;
+    position:absolute;
+    left: 0;
+    top: 0;
+    background-image: url('../assets/Group228.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: 100%;
+    background-position-y: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+.back{
+    border: teal;
+    width: 25%;
+    position: relative;
+    left: 0;
+    top: 0;
+}
