@@ -1,0 +1,9 @@
+.group{
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sty{
+    margin: 50px;
+}
