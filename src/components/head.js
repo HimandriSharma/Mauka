@@ -5,19 +5,19 @@ import logo from '../assets/Group220.png';
 const head = () => {
     return (
         <nav>
-            <div className='div-header'>
+            <div style={{display:'flex',flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
                 <div className='div-png'>
-                <img src={logo} alt="Logo" />
-                    <h>organic</h>
+                <div style={{margin:'20px'}}><img src={logo} alt="Logo" /></div>
+                    <div style={{marginTop:'30px'}}><b>organic</b></div>
                 </div>
                 <div style={{display:'flex',flexDirection:'row',alignItems:'center'}}>
                     <Router>
-                        <NavLink to='/'>Home</NavLink>
-                        <NavLink to='/'>Products</NavLink>
-                        <NavLink to='/'>Blog</NavLink>
-                        <NavLink to='/'>About us</NavLink>
+                        <NavLink to='/'><div style={{margin:"20px",fontSize:'20px',color:'#374b5c'}}>Home</div></NavLink>
+                        <NavLink to='/'><div style={{margin:"20px",fontSize:'20px',color:'#374b5c'}}>Products</div></NavLink>
+                        <NavLink to='/'><div style={{margin:"20px",fontSize:'20px',color:'#374b5c'}}>Blog</div></NavLink>
+                        <NavLink to='/'><div style={{margin:"20px",fontSize:'20px',color:'#374b5c'}}>About us</div></NavLink>
                     </Router>
-                    <button className='button-header'>Contact</button>
+                    <button style={{border:'solid',borderRadius:'20px',padding:'1.0rem',fontSize:'20px',margin:'20px',background:'white',borderColor:'#00dbd0',color:'#374b5c'}}>Contact</button>
                 </div>
             </div>
         </nav>

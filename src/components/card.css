@@ -1,7 +1,7 @@
 .card-container{
     width: 300px;
     overflow: hidden;
-    box-shadow: 0px 0px 15px -5px;
+    
     border-radius: 10%;
 }
 
@@ -28,6 +28,7 @@ h3,p{
 
 .card-title{
     margin-bottom: 0.5rem;
+    color: #4FE6DE;
 }
 
 .btn{
@@ -43,13 +44,7 @@ h3,p{
     border-radius: 3px;
 }
 
-.btn:hover{
-    background:gray;
-    
-}
 a{
-    text-transform: uppercase;
-    color: gray;
+    color: black;
     text-decoration: none;
-    font-weight: bold;
 }

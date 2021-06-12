@@ -9,16 +9,13 @@ import Review from './components/review';
 function App() {
   return (
     <div className="App">
-      {/* <Head/> */}
-      {/* <Home/>
+      <Head/>
+      <Home/>
       <Welcome/>
-      <Present/> */}
-      {/*<Review/>
+      <Present/>
+      <Review/>
       <Blog/>
-      <Footer/> */}
-      {/* <header className="App-header">
-        Test
-      </header> */}
+      <Footer/>
     </div>
   );
 }

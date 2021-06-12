@@ -43,17 +43,10 @@ h3{
 h2{
     margin-top: 1px;
 }
-.btn{
-    color: white;
-    background:#00dbd0;
-    border:none;
-    font-size: 100%;
-    padding: 1.0rem;
-    border-radius: 10px;
-}
+
 .img{
-    height: 563pt;
-    width: 600pt;
+    height: 363pt;
+    width: 400pt;
     margin-top: 200px;
     margin-right: 200px;
 }

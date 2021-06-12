@@ -14,9 +14,18 @@ nav{
 }
 
 .div-png{
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     padding: 0 20px;
     display: flex;
     flex-direction: row;
+    font-size: 30px;
+}
+.button-header{
+    color: black;
+    border: #00dbd0;
+    font-size: 100%;
+    padding: 2.5rem;
+    border-radius: 10px;
+    margin:'20px'
 }

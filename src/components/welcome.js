@@ -8,9 +8,9 @@ function welcome() {
         <div>
             <div className='imag'><img src={leaf} alt=''/></div>
             <div className='txt'>
-                <h1>Welcome to Nature</h1>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/>
-incididunt ut labore et dolore magna aliqua.</h4>
+                <div style={{fontSize:'40px',margin:'20px'}}>Welcome to Nature</div>
+                <div style={{fontSize:'15px',margin:'20px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/>
+                incididunt ut labore et dolore magna aliqua.</div>
             </div>
             <div style={{display:'flex',flexDirection:'row',justifyContent:'center'}}>
                 <div className='crd'><img src={trans} alt=''/></div>

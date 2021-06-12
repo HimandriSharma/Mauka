@@ -1,6 +1,6 @@
 import React from 'react'
 import './card.css'
-import Img from '../assets/card1.png'
+import line from '../assets/line.png';
 function card({title,imageUrl,body}) {
     return (
         <div className='card-container'>
@@ -15,12 +15,13 @@ function card({title,imageUrl,body}) {
                     <p>{body}</p>
                 </div>
             </div>
-            <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+            <div style={{display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}>
                 <button style={{border:'none'}}>
                     <a>
-                        view more
+                        Read more
                     </a>
                 </button>
+                <img src={line} style={{width:'80px',marginLeft:'10px'}} alt=""/>
             </div>
         </div>
     )

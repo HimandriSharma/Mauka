@@ -7,40 +7,40 @@ import Img3 from '../assets/card3.png'
 function blog() {
     return (
         <div>
-            <div>
+            <div style={{marginTop:'100px'}}>
                 <img src={leaf} alt=''/>
             </div>
             <div>
-                <h1>
+                <div style={{fontSize:'35px',margin:'20px'}}>
                     Read Our Blog
-                </h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/>
+                </div>
+                <div style={{fontSize:'15px'}}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/>
 incididunt ut labore et dolore magna aliqua.
-                <h4>
-
-                </h4>
+                </div>
             </div>
-            <div style={{display:'flex',padding:'10px'}}>
-                <Card
+            <div style={{display:'flex',padding:'10px',justifyContent:'center',alignItems:'center',marginTop:'50px',marginBottom:'50px'}}>
+                <div style={{margin:'30px'}}><Card
                 title='Blog Post One'
                 imageUrl={Img1}
                 body='Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit, sed
                  do eiusmod.'
-                />
-                 <Card
+                /></div>
+                <div style={{margin:'30px'}}> <Card
                 title='Blog Post One'
                 imageUrl={Img2}
                 body='Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit, sed
                  do eiusmod.'
-                />
-                 <Card
+                /></div>
+                 <div style={{margin:'30px'}}><Card
                 title='Blog Post One'
                 imageUrl={Img3}
                 body='Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit, sed
                  do eiusmod.'
-                />
+                /></div>
             </div>
         </div>
     )
